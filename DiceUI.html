@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dice Roll!</title>
+  <link rel="stylesheet" href="Dice.css">
+</head>
+
+<body>
+  <script src="Dice.js"></script>
+<div class="container">
+    <header>
+      <h1>Roll a 6-Face or 10-Face Dice</h1>
+    </header>
+
+    <!-- 6-Face Dice Box -->
+    <div class="dice-box">
+      <h2>6-Face Dice</h2>
+      <div id="dice6" class="dice">🎲</div>
+      <input type="button" class="myButton1"
+      onclick="rollDice('dice6',6)" value="Roll 6-Face Dice">
+    </div>
+
+    <!-- 10-Face Dice Box -->
+    <div class="dice-box">
+      <h2>10-Face Dice</h2>
+      <div id="dice10" class="dice">🎲</div>
+      <input type="button" class="myButton2" 
+      onclick="rollDice('dice10',10)" value="Roll 10-Face Dice">
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
